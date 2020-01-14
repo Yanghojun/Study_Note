@@ -2,7 +2,7 @@ import torch
 import torch.optim
 
 # Data definition
-x_train = torch.Tensor([[73, 80, 75], [93, 88, 93], [89, 91, 80], [96, 98, 100], [73, 66, 70]])
+x_train = torch.Tensor([[73, 80, 75], [93, 88, 93], [89, 91, 80], [96, 98, 100], [73, 66, 70]])     # 1행의 1,2,3열의 저 73, 80, 75 데이터는 정답 데이터의 152와 매칭되는 것임
 y_train = torch.Tensor([[152], [185], [180], [196], [142]])
 
 # W variable definition
@@ -20,7 +20,7 @@ num_epoch = 20
 for epoch in range(num_epoch):
 
     # Inference
-    hypothesis = x_train.matmul(W) + b
+    hypothesis = x_train.matmul(W) + b      # H(x) = w1x1 + w2x2 + w3x3 + b
 
     # cost
     cost = torch.mean((hypothesis - y_train)**2)
