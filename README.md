@@ -1,2 +1,2 @@
 # Study_Note
-I will usually  upload many things I studied
+I will usually upload many things I studied
