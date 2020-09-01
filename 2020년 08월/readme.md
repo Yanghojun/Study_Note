@@ -23,4 +23,4 @@
 >>>9월 8일 다른 연구실 박사님과 회의 예정
 >>#### 기상데이터를 활용한 자동 분류 시스템
 >>> 이번주 __금요일__ 혹은 __토요일__ 회의 <span style="color:red">예정</span>
-<span style="color:red">예정</span>
+<html><span style="color:red">내용</span></html>
